@@ -120,7 +120,7 @@ if(!$db)
 
   
 
-  $sql="INSERT INTO st_admin  (st_uname,st_pswd) VALUES  ('$uname','$pswd')";
+  $sql="INSERT INTO st_admin  (st_uname,st_pswd) VALUES  ('$uname','$pswd')";     
   
 
   $db->query($sql);
